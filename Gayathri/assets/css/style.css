@@ -402,12 +402,17 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  
   height: 95vh;
   background: url("../img/hero-bg.jpg") no-repeat center center fixed;
-  background-size: 100% 100%! important;
-  background-position: 0 0! important;
+  
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
   background-size:cover;
   background-attachment: scroll;
 }
