@@ -408,9 +408,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
  
 }
-.parallax{
-	background-attachment: inherit;
-}
+
 
 #hero .container {
   padding-top: 70px;
