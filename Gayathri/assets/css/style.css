@@ -406,6 +406,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top right;
   background-size: cover;
+ 
+}
+.parallax{
+	background-attachment: inherit;
 }
 
 #hero .container {
@@ -413,12 +417,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-@media only screen and (max-width: 749px) {
+@media (max-width: 992px) {
   #hero .container {
     padding-top: 58px;
-  }
-  .parallax{
-	  background-attachment: inherit;
   }
   
 }
